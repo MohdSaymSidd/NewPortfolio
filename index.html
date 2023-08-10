@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d6f99600bb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+         <div class="container">
+            <nav>
+                <img src="images/Screenshot 2023-08-03 172447.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <nav>
+                <div class="header-text">
+                    <p>Web Developer</p>
+                    <h1>Hi, I'm <span>Mohd Saym</span> <br>From India.</h1>
+
+                </div>
+            </nav>
+         </div>
+    </div>
+    <!-- -----------about me---------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Screenshot_2023-08-03_123121-removebg-preview.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>This is my First Portfolio nuts br
+                     pie moon tail national combination article 
+                     along dark coast smoke wrote thread electric manner
+                      label package longer accept come eat future primitive 
+                      foreign</p>
+
+                      <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                      </div>
+                      <div class="tab-contents active-tab" id="skills" >
+                        <ul>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Softwere Development</span><br>Clone Website</li>
+                            <li><span>Game Development</span><br>Snake Game for Now😅</li>
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id="education"> 
+                        <ul>
+                            <li><span>2021 - Current</span><br>BCA From Integral University</li>
+                            <li><span>2020</span><br>DFA course from Education World <br>With CCC certification</li>
+                            <li><span>2019-2020</span><br>Intermideate from MSI Inter College <br>with 72.30%</li>
+                            <li><span>2017-2018</span><br>High School from MG Inter College <br>with 71.66%</li>
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023</span><br>Internship in Prodigy InfoTech.</li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+        </div>
+         
+    </div>
+    <!-- --------------services------------- -->
+    <div id="services">
+        <div id="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>bone longer stuck such salmon transportation collect since see tobacco type percent hot city author west observe goose life needed system increase upon occasionally</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Softwere Development</h2>
+                    <p>bone longer stuck such salmon transportation collect since see tobacco type percent hot city author west observe goose life needed system increase upon occasionally</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Game Development</h2>
+                    <p>bone longer stuck such salmon transportation collect since see tobacco type percent hot city author west observe goose life needed system increase upon occasionally</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------Portfolio------------- -->
+    <div id="Portfolio">
+        <div id="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Web App</h3>
+                        <p>The app connects you to the talented people around the world.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the world.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to the talented people around the world.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- -------------------contact----------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>saymsidd008@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9198897872</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/mohdsaym" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="personal-portfolio-img/images/Resume (saym)final.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Massage" rows="6" placeholder="Your Massage"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©. Made by Mohd Saym <i class="fa-solid fa-heart"></i>. </p>
+        </div>
+    </div>
+
+
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwj1knBgwnml6TbgHHZ91j8TDmAHtY-23HV8p2GU7NPo3AD73xW3qrV-hSLiX3qhOfp_A/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Massage sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
